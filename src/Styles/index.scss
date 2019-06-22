@@ -1,0 +1,17 @@
+@import "app";
+@import "loading";
+@import "tooltip";
+
+$main-font: "lato", sans-serif;
+
+html {
+  height: 100%;
+}
+
+body {
+  font: 100% $main-font;
+  margin: 0;
+  background-image: url("../Assets/darksouls-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
